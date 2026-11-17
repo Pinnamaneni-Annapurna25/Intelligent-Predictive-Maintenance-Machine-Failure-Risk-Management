@@ -29,7 +29,11 @@ The workflow includes:
 
 ## Dataset
 
-The project uses an industrial predictive maintenance dataset containing machine health and operating conditions. Features include operational and sensor-based attributes relevant to equipment degradation and failure risk.
+This project uses the AI4I 2020 Predictive Maintenance Dataset, which is publicly available from the UCI Machine Learning Repository:
+
+https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset
+
+The dataset contains simulated industrial sensor and maintenance records used to model machine health and predict failure events. It includes operational variables such as air temperature, process temperature, rotational speed, torque, tool wear, and machine failure indicators. This benchmark dataset is widely used for predictive maintenance and reliability analysis research.
 
 ## Methodology
 
@@ -73,7 +77,7 @@ From the reported comparison, the Random Forest model provided a strong balance 
 - Matplotlib
 - Seaborn
 - Scikit-learn
-- XGBoost
+- TensorFlow
 
 ## Getting Started
 
@@ -95,13 +99,7 @@ source venv/bin/activate
 ### 3. Install dependencies
 
 ```bash
-pip install -r requirements.txt
-```
-
-If a requirements file is not available, install the required packages manually:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
+pip install pandas numpy matplotlib seaborn scikit-learn tensorflow jupyter
 ```
 
 ### 4. Open the notebook
