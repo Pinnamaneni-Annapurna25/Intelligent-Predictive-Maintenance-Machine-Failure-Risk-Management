@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1_Score,ROC_AUC,PR_AUC,Selected_Threshold,TN,FP,FN,TP,Hypothetical_Test_Business_Cost_Units
+Logistic Regression,0.9193,0.2635,0.7647,0.392,0.9031,0.3823,0.69,1340,109,12,39,22900
+Random Forest,0.9533,0.4112,0.8627,0.557,0.9725,0.845,0.2,1386,63,7,44,13300
+ANN,0.9653,0.4938,0.7843,0.6061,0.9705,0.7048,0.78,1408,41,11,40,15100
